@@ -26,7 +26,7 @@ In your .eslintrc file:
 }
 ```
 
-All options from [index.js](index.js) and [esnext](esnext.js) may be overridden in your .eslintrc file.
+All options from [index.js](index.js) and [esnext.js](esnext.js) may be overridden in your .eslintrc file.
 
 ## LICENSE
 MIT © [Dustin Specker](https://github.com/dustinspecker)
