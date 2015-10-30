@@ -23,10 +23,9 @@ gulp.task('lint', () => {
     }))
     .pipe(eslint.formatEach('./node_modules/eslint-path-formatter'))
     .pipe(eslint.failOnError())
-    .pipe(jscs({
-      esnext: true
-    }))
+    .pipe(jscs())
     .pipe(jscs.reporter())
+    .pipe(jscs.reporter('fail'))
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
     .pipe(jshint.reporter('fail'));
