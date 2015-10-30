@@ -30,7 +30,7 @@
     "eslint": "^1.0.0",
     "eslint-path-formatter": "^0.1.1",
     "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.0",
+    "gulp-babel": "^6.0.0",
     "gulp-eslint": "^1.0.0",
     "gulp-istanbul": "^0.10.0",
     "gulp-jscs": "^3.0.1",
