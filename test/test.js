@@ -1,31 +1,31 @@
 /* global describe, it */
 'use strict';
-var config = require('../')
-  , esnext = require('../esnext')
-  , expect = require('chai').expect
-  , isPlainObj = require('is-plain-obj');
+import config from '../';
+import esnext from '../esnext';
+import {expect} from 'chai';
+import isPlainObj from 'is-plain-obj';
 
-describe('eslint-config-angular', function () {
-  describe('index', function () {
-    it('should be an object', function () {
+describe('eslint-config-angular', () => {
+  describe('index', () => {
+    it('should be an object', () => {
       expect(isPlainObj(config)).to.eql(true);
     });
 
-    describe('rules', function () {
-      it('should have rules', function () {
+    describe('rules', () => {
+      it('should have rules', () => {
         expect(isPlainObj(config.rules)).to.eql(true);
       });
     });
   });
 
-  describe('esnext', function () {
-    describe('env', function () {
-      it('should have es6', function () {
+  describe('esnext', () => {
+    describe('env', () => {
+      it('should have es6', () => {
         expect(esnext.env.es6).to.eql(true);
       });
     });
 
-    it('should have ecmaFeatures', function () {
+    it('should have ecmaFeatures', () => {
       expect(isPlainObj(esnext.ecmaFeatures)).to.eql(true);
     });
   });
