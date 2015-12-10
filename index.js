@@ -43,10 +43,10 @@ module.exports = {
     'linebreak-style': [2, 'unix'],
     'lines-around-comment': 2,
     'max-depth': 2,
-    'max-len': [2, 80, 2],
+    'max-len': [2, 120, 2],
     'max-nested-callbacks': [2, 5],
     'max-params': [2, 7],
-    'max-statements': [2, 15],
+    'max-statements': [2, 25],
     'new-cap': [2, {
       capIsNew: true,
       newIsCap: true
