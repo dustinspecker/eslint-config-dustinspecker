@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dustinspecker",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "ESLint shareable config of Dustin Specker's preferences",
   "main": "index.js",
   "scripts": {
