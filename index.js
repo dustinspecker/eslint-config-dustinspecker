@@ -46,7 +46,7 @@ module.exports = {
     'max-len': [2, 120, 2],
     'max-nested-callbacks': [2, 5],
     'max-params': [2, 7],
-    'max-statements': [2, 25],
+    'max-statements': 0,
     'new-cap': [2, {
       capIsNew: true,
       newIsCap: true
