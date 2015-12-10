@@ -174,7 +174,7 @@ module.exports = {
       after: true,
       before: false
     }],
-    'sort-vars': [2, {ignoreCase: true}],
+    'sort-vars': 0,
     'space-after-keywords': [2, 'always'],
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, {
