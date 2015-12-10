@@ -12,8 +12,8 @@ const configFiles = './gulpfile.babel.js'
   , srcFiles = 'index.js'
   , testFiles = 'test/*.js';
 
-gulp.task('lint', () => {
-  return gulp.src([configFiles, srcFiles, testFiles])
+gulp.task('lint', () =>
+  gulp.src([configFiles, srcFiles, testFiles])
     .pipe(eslint({
       baseConfig: {
         ecmaFeatures: conf.ecmaFeatures
@@ -29,12 +29,12 @@ gulp.task('lint', () => {
     .pipe(jscs.reporter('fail'))
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
-    .pipe(jshint.reporter('fail'));
-});
+    .pipe(jshint.reporter('fail'))
+);
 
 gulp.task('build', ['lint']);
 
-gulp.task('test', ['build'], (cb) => {
+gulp.task('test', ['build'], cb => {
   gulp.src(['index.js'])
     .pipe(istanbul())
     .pipe(istanbul.hookRequire())
