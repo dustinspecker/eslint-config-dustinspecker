@@ -41,7 +41,7 @@ module.exports = {
       beforeColon: false
     }],
     'linebreak-style': [2, 'unix'],
-    'lines-around-comment': 2,
+    'lines-around-comment': 0,
     'max-depth': 2,
     'max-len': [2, 120, 2],
     'max-nested-callbacks': [2, 5],
