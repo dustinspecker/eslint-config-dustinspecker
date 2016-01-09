@@ -3,6 +3,7 @@
 import config from '../';
 import esnext from '../esnext';
 import {expect} from 'chai';
+import jsx from '../jsx';
 import isPlainObj from 'is-plain-obj';
 
 describe('eslint-config-angular', () => {
@@ -27,6 +28,20 @@ describe('eslint-config-angular', () => {
 
     it('should have ecmaFeatures', () => {
       expect(isPlainObj(esnext.ecmaFeatures)).to.eql(true);
+    });
+  });
+
+  describe('jsx', () => {
+    describe('env', () => {
+      it('should have browser', () => {
+        expect(jsx.env.browser).to.equal(true);
+      });
+    });
+
+    describe('ecmaFeatures', () => {
+      it('should have jsx', () => {
+        expect(jsx.ecmaFeatures.jsx).to.equal(true);
+      });
     });
   });
 });
