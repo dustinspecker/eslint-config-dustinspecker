@@ -33,7 +33,7 @@ Depends on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-reac
 ```javascript
 {
   "extends": "dustinspecker/jsx",
-  "plugins: [
+  "plugins": [
     "react"
   ]
 }
