@@ -28,9 +28,14 @@ In your .eslintrc file:
 
 ## JSX usage
 
+Depends on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+
 ```javascript
 {
-  "extends": "dustinspecker/jsx"
+  "extends": "dustinspecker/jsx",
+  "plugins: [
+    "react"
+  ]
 }
 ```
 
