@@ -26,7 +26,15 @@ In your .eslintrc file:
 }
 ```
 
-All options from [index.js](index.js) and [esnext.js](esnext.js) may be overridden in your .eslintrc file.
+## JSX usage
+
+```javascript
+{
+  "extends": "dustinspecker/jsx"
+}
+```
+
+All options from [index.js](index.js), [esnext.js](esnext.js), [jsx.js](jsx.js) may be overridden in your .eslintrc file.
 
 ## LICENSE
 MIT © [Dustin Specker](https://github.com/dustinspecker)
