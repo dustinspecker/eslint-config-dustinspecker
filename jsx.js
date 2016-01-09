@@ -5,7 +5,6 @@ config.ecmaFeatures.jsx = true;
 
 config.env.browser = true;
 
-config.rules['jsx-quotes'] = [2, 'prefer-single'];
 config.rules['func-style'] = [2, 'declaration', {allowArrowFunctions: true}];
 config.rules['jsx-quotes'] = [2, 'prefer-single'];
 config.rules['new-cap'] = [2, {capIsNewExceptions: ['List', 'Map']}];
