@@ -1,4 +1,3 @@
-'use strict';
 const config = require('./');
 
 config.env.es6 = true;

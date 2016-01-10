@@ -1,4 +1,3 @@
-'use strict';
 import config from '../';
 import esnext from '../esnext';
 import isPlainObj from 'is-plain-obj';
