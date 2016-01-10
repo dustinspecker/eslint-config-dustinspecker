@@ -1,12 +1,13 @@
 'use strict';
-import conf from './esnext';
+import babel from 'gulp-babel';
+import conf from './src/esnext';
 import gulp from 'gulp';
 import eslint from 'gulp-eslint';
 import jscs from 'gulp-jscs';
 import jshint from 'gulp-jshint';
 
 const configFiles = './gulpfile.babel.js'
-  , srcFiles = 'index.js'
+  , srcFiles = 'src/*.js'
   , testFiles = 'test/*.js';
 
 gulp.task('lint', () =>
@@ -29,4 +30,8 @@ gulp.task('lint', () =>
     .pipe(jshint.reporter('fail'))
 );
 
-gulp.task('build', ['lint']);
+gulp.task('build', ['lint'], () =>
+  gulp.src([srcFiles])
+    .pipe(babel())
+    .pipe(gulp.dest('./'))
+);

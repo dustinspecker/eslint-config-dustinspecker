@@ -2,3 +2,6 @@
 coverage/
 lib/
 node_modules/
+esnext.js
+index.js
+jsx.js

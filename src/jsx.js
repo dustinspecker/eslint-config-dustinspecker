@@ -1,5 +1,5 @@
 'use strict';
-var config = require('./esnext');
+const config = require('./esnext');
 
 config.ecmaFeatures.jsx = true;
 
