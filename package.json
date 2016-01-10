@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "compile": "babel src --out-dir ./",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint --config ./src/esnext.js ./",
-    "test": "npm run lint && npm run compile && nyc ava --require babel-core/register",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "test": "npm run lint && npm run compile && nyc ava --require babel-core/register"
   },
   "repository": {
     "type": "git",
