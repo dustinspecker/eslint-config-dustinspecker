@@ -1,47 +1,30 @@
-/* global describe, it */
 'use strict';
 import config from '../';
 import esnext from '../esnext';
-import {expect} from 'chai';
 import isPlainObj from 'is-plain-obj';
 import jsx from '../jsx';
+import test from 'ava';
 
-describe('eslint-config-angular', () => {
-  describe('index', () => {
-    it('should be an object', () => {
-      expect(isPlainObj(config)).to.eql(true);
-    });
+test('index should be an object', t => {
+  t.ok(isPlainObj(config));
+});
 
-    describe('rules', () => {
-      it('should have rules', () => {
-        expect(isPlainObj(config.rules)).to.eql(true);
-      });
-    });
-  });
+test('index should have rules', t => {
+  t.ok(isPlainObj(config.rules));
+});
 
-  describe('esnext', () => {
-    describe('env', () => {
-      it('should have es6', () => {
-        expect(esnext.env.es6).to.eql(true);
-      });
-    });
+test('esnext should es6 env', t => {
+  t.ok(esnext.env.es6);
+});
 
-    it('should have ecmaFeatures', () => {
-      expect(isPlainObj(esnext.ecmaFeatures)).to.eql(true);
-    });
-  });
+test('esnext should have ecmaFeatures', t => {
+  t.ok(isPlainObj(esnext.ecmaFeatures));
+});
 
-  describe('jsx', () => {
-    describe('env', () => {
-      it('should have browser', () => {
-        expect(jsx.env.browser).to.equal(true);
-      });
-    });
+test('jsx should have browser env', t => {
+  t.ok(jsx.env.browser);
+});
 
-    describe('ecmaFeatures', () => {
-      it('should have jsx', () => {
-        expect(jsx.ecmaFeatures.jsx).to.equal(true);
-      });
-    });
-  });
+test('jsx should have jsx ecmaFeature', t => {
+  t.ok(jsx.ecmaFeatures.jsx);
 });

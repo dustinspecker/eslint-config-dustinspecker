@@ -1,12 +1,9 @@
 'use strict';
-import babel from 'babel-core';
 import conf from './esnext';
 import gulp from 'gulp';
 import eslint from 'gulp-eslint';
-import istanbul from 'gulp-istanbul';
 import jscs from 'gulp-jscs';
 import jshint from 'gulp-jshint';
-import mocha from 'gulp-mocha';
 
 const configFiles = './gulpfile.babel.js'
   , srcFiles = 'index.js'
@@ -33,19 +30,3 @@ gulp.task('lint', () =>
 );
 
 gulp.task('build', ['lint']);
-
-gulp.task('test', ['build'], cb => {
-  gulp.src(['index.js'])
-    .pipe(istanbul())
-    .pipe(istanbul.hookRequire())
-    .on('finish', () => {
-      gulp.src([testFiles])
-        .pipe(mocha({
-          compilers: {
-            js: babel
-          }
-        }))
-        .pipe(istanbul.writeReports())
-        .on('end', cb);
-    });
-});
