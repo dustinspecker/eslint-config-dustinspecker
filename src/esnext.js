@@ -1,6 +1,6 @@
-const config = require('./');
+const config = require('./')
 
-config.env.es6 = true;
+config.env.es6 = true
 
 config.ecmaFeatures = {
   arrowFunctions: true,
@@ -26,25 +26,26 @@ config.ecmaFeatures = {
   superInFunctions: true,
   templateString: true,
   unicodeCodePointEscape: true
-};
+}
 
-config.rules['arrow-body-style'] = [2, 'as-needed'];
-config.rules['arrow-parens'] = [2, 'as-needed'];
-config.rules['arrow-spacing'] = [2, {after: true, before: true}];
-config.rules['constructor-super'] = 2;
-config.rules['generator-star-spacing'] = [2, {after: true, before: false}];
-config.rules['no-arrow-condition'] = 0;
-config.rules['no-class-assign'] = 2;
-config.rules['no-const-assign'] = 2;
-config.rules['no-dupe-class-members'] = 2;
-config.rules['no-this-before-super'] = 2;
-config.rules['no-var'] = 2;
-config.rules['object-shorthand'] = 2;
-config.rules['prefer-arrow-callback'] = 2;
-config.rules['prefer-const'] = 2;
-config.rules['prefer-reflect'] = 2;
-config.rules['prefer-spread'] = 2;
-config.rules['prefer-template'] = 2;
-config.rules['require-yield'] = 2;
+config.rules['arrow-body-style'] = [2, 'as-needed']
+config.rules['arrow-parens'] = [2, 'as-needed']
+config.rules['arrow-spacing'] = [2, {after: true, before: true}]
+config.rules['constructor-super'] = 2
+config.rules['func-style'] = [2, 'declaration', {allowArrowFunctions: true}]
+config.rules['generator-star-spacing'] = [2, {after: true, before: false}]
+config.rules['no-arrow-condition'] = 0
+config.rules['no-class-assign'] = 2
+config.rules['no-const-assign'] = 2
+config.rules['no-dupe-class-members'] = 2
+config.rules['no-this-before-super'] = 2
+config.rules['no-var'] = 2
+config.rules['object-shorthand'] = 2
+config.rules['prefer-arrow-callback'] = 2
+config.rules['prefer-const'] = 2
+config.rules['prefer-reflect'] = 2
+config.rules['prefer-spread'] = 2
+config.rules['prefer-template'] = 2
+config.rules['require-yield'] = 2
 
-module.exports = config;
+module.exports = config

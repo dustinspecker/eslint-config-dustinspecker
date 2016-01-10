@@ -48,6 +48,7 @@ module.exports = {
     'max-statements': 0,
     'new-cap': [2, {
       capIsNew: true,
+      capIsNewExceptions: ['List', 'Map'],
       newIsCap: true
     }],
     'new-parens': 2,
@@ -168,7 +169,7 @@ module.exports = {
     quotes: [2, 'single'],
     radix: 2,
     'require-jsdoc': 0,
-    semi: 2,
+    semi: [2, 'never'],
     'semi-spacing': [2, {
       after: true,
       before: false
@@ -201,4 +202,4 @@ module.exports = {
     'wrap-regex': 2,
     yoda: [2, 'never']
   }
-};
+}
