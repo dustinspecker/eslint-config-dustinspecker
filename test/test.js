@@ -3,8 +3,8 @@
 import config from '../';
 import esnext from '../esnext';
 import {expect} from 'chai';
-import jsx from '../jsx';
 import isPlainObj from 'is-plain-obj';
+import jsx from '../jsx';
 
 describe('eslint-config-angular', () => {
   describe('index', () => {
