@@ -2,6 +2,11 @@ const config = require('./')
 
 config.env.es6 = true
 
+config.parserOptions = {
+  ecmaVersion: 6,
+  sourceType: 'module'
+}
+
 config.ecmaFeatures = {
   arrowFunctions: true,
   binaryLiterals: false,
@@ -13,7 +18,6 @@ config.ecmaFeatures = {
   forOf: true,
   generators: true,
   globalReturn: false,
-  modules: true,
   objectLiteralComputedProperties: true,
   objectLiteralDuplicateProperties: false,
   objectLiteralShorthandMethods: true,

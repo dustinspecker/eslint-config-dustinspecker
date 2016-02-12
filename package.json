@@ -30,7 +30,7 @@
     "babel-preset-es2015": "^6.0.12",
     "babel-register": "^6.3.13",
     "coveralls": "^2.11.2",
-    "eslint": "^1.10.3",
+    "eslint": "^2.0.0",
     "eslint-plugin-new-with-error": "^1.1.0",
     "eslint-plugin-no-use-extend-native": "^0.3.1",
     "is-plain-obj": "^1.0.0",
