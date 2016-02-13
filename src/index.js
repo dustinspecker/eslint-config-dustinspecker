@@ -39,6 +39,7 @@ module.exports = {
       afterColon: true,
       beforeColon: false
     }],
+    'keyword-spacing': [2, {"after": true, "before": true}],
     'linebreak-style': [2, 'unix'],
     'lines-around-comment': 0,
     'max-depth': 2,
@@ -72,7 +73,6 @@ module.exports = {
     'no-else-return': 2,
     'no-empty': 2,
     'no-empty-character-class': 2,
-    'no-empty-label': 2,
     'no-empty-pattern': 2,
     'no-eq-null': 2,
     'no-eval': 2,
@@ -175,7 +175,6 @@ module.exports = {
       before: false
     }],
     'sort-vars': 0,
-    'space-after-keywords': [2, 'always'],
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, {
       anonymous: 'always',
@@ -183,7 +182,6 @@ module.exports = {
     }],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
-    'space-return-throw-case': 2,
     'space-unary-ops': [2, {
       nonwords: false,
       words: true

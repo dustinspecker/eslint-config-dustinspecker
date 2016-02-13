@@ -1,6 +1,8 @@
 const config = require('./esnext')
 
-config.ecmaFeatures.jsx = true
+config.parserOptions.ecmaFeatures = {
+  jsx: true
+}
 
 config.env.browser = true
 

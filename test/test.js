@@ -14,6 +14,7 @@ test('index should have rules', t => {
 
 test('esnext should es6 env', t => {
   t.ok(esnext.env.es6)
+  t.ok(esnext.parserOptions.ecmaVersion, 6)
 })
 
 test('esnext should have ecmaFeatures', t => {
@@ -25,5 +26,5 @@ test('jsx should have browser env', t => {
 })
 
 test('jsx should have jsx ecmaFeature', t => {
-  t.ok(jsx.ecmaFeatures.jsx)
+  t.ok(jsx.parserOptions.ecmaFeatures.jsx)
 })
