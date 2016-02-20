@@ -18,7 +18,7 @@ module.exports = {
     'comma-style': 0,
     complexity: [2, 7],
     'computed-property-spacing': 2,
-    'consistent-return': 2,
+    'consistent-return': 0,
     'consistent-this': [2, 'self'],
     curly: 2,
     'default-case': 2,
