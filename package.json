@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "babel src --out-dir ./",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "eslint-find-rules": "eslint-find-rules -u ./jsx.js",
     "lint": "eslint --config ./src/esnext.js ./",
     "test": "npm run lint && npm run compile && nyc ava --require babel-register"
   },
@@ -31,6 +32,7 @@
     "babel-register": "^6.3.13",
     "coveralls": "^2.11.2",
     "eslint": "^2.0.0",
+    "eslint-find-rules": "^1.1.0",
     "eslint-plugin-new-with-error": "^1.1.0",
     "eslint-plugin-no-use-extend-native": "^0.3.1",
     "is-plain-obj": "^1.0.0",
