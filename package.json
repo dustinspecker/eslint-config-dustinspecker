@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dustinspecker",
-  "version": "0.4.1",
+  "version": "0.0.0-semantic-release",
   "description": "ESLint shareable config of Dustin Specker's preferences",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,12 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "eslint-find-rules": "eslint-find-rules -u ./jsx.js",
     "lint": "eslint --config ./src/esnext.js ./",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "npm run lint && npm run compile && nyc ava --require babel-register"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dustinspecker/eslint-config-dustinspecker.git"
+    "url": "https://github.com/dustinspecker/eslint-config-dustinspecker.git"
   },
   "keywords": [
     "eslint",
@@ -37,7 +38,8 @@
     "eslint-plugin-new-with-error": "^1.1.0",
     "eslint-plugin-no-use-extend-native": "^0.3.1",
     "is-plain-obj": "^1.0.0",
-    "nyc": "^6.0.0"
+    "nyc": "^6.0.0",
+    "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {
