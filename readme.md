@@ -7,6 +7,8 @@
 [![Dependencies](https://david-dm.org/dustinspecker/eslint-config-dustinspecker.svg)](https://david-dm.org/dustinspecker/eslint-config-dustinspecker/#info=dependencies&view=table)
 [![DevDependencies](https://david-dm.org/dustinspecker/eslint-config-dustinspecker/dev-status.svg)](https://david-dm.org/dustinspecker/eslint-config-dustinspecker/#info=devDependencies&view=table)
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 > ESLint [shareable](http://eslint.org/docs/developer-guide/shareable-configs.html) config of Dustin Specker's preferences
 
 ## Install
