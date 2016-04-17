@@ -6,12 +6,15 @@ config.parserOptions.ecmaFeatures = {
 
 config.env.browser = true
 
+config.plugins = ['react']
+
 config.rules['jsx-quotes'] = [2, 'prefer-single']
-config.rules['react/display-name'] = [2, {acceptTranspilerName: true}]
+config.rules['react/display-name'] = [2, {ignoreTranspilerName: false}]
 config.rules['react/forbid-prop-types'] = [2, {forbid: ['any']}]
 config.rules['react/jsx-boolean-value'] = [2, 'never']
 config.rules['react/jsx-closing-bracket-location'] = [2, 'line-aligned']
 config.rules['react/jsx-curly-spacing'] = [2, 'never']
+config.rules['react/jsx-equals-spacing'] = [2, 'never']
 config.rules['react/jsx-handler-names'] = [2, {
   eventHandlerPrefix: 'handle',
   eventHandlerPropPrefix: 'on'
@@ -27,6 +30,7 @@ config.rules['react/jsx-no-undef'] = 2
 config.rules['react/jsx-pascal-case'] = 2
 config.rules['react/jsx-sort-prop-types'] = 2
 config.rules['react/jsx-sort-props'] = 2
+config.rules['react/jsx-space-before-closing'] = [2, 'always']
 config.rules['react/jsx-uses-react'] = 2
 config.rules['react/jsx-uses-vars'] = 2
 config.rules['react/no-danger'] = 2
@@ -40,11 +44,14 @@ config.rules['react/no-set-state'] = 2
 config.rules['react/no-string-refs'] = 2
 config.rules['react/no-unknown-property'] = 2
 config.rules['react/prefer-es6-class'] = [2, 'never']
+config.rules['react/prefer-stateless-function'] = 2
 config.rules['react/prop-types'] = 2
 config.rules['react/react-in-jsx-scope'] = 2
 config.rules['react/require-extension'] = [2, {extensions: ['.js', '.jsx']}]
+config.rules['react/require-render-return'] = 2
 config.rules['react/self-closing-comp'] = 2
 config.rules['react/sort-comp'] = 2
+config.rules['react/sort-prop-types'] = 2
 config.rules['react/wrap-multilines'] = [2, {assignment: false, declaration: false, return: false}]
 
 module.exports = config
