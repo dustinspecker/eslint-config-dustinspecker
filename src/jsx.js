@@ -15,6 +15,7 @@ config.rules['react/jsx-boolean-value'] = [2, 'never']
 config.rules['react/jsx-closing-bracket-location'] = [2, 'line-aligned']
 config.rules['react/jsx-curly-spacing'] = [2, 'never']
 config.rules['react/jsx-equals-spacing'] = [2, 'never']
+config.rules['react/jsx-first-prop-new-line'] = [2, 'multiline']
 config.rules['react/jsx-handler-names'] = [2, {
   eventHandlerPrefix: 'handle',
   eventHandlerPropPrefix: 'on'
