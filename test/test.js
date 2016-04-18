@@ -25,6 +25,10 @@ test('jsx should have browser env', t => {
   t.truthy(jsx.env.browser)
 })
 
+test('jsx should have react plugin', t => {
+  t.true(jsx.plugins.indexOf('react') > -1)
+})
+
 test('jsx should have jsx ecmaFeature', t => {
   t.truthy(jsx.parserOptions.ecmaFeatures.jsx)
 })
