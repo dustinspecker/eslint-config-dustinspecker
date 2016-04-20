@@ -3,7 +3,8 @@ module.exports = {
     node: true
   },
   plugins: [
-    'no-use-extend-native'
+    'no-use-extend-native',
+    'xo'
   ],
   rules: {
     'accessor-pairs': 2,
@@ -132,7 +133,7 @@ module.exports = {
     'no-path-concat': 2,
     'no-plusplus': 0,
     'no-process-env': 2,
-    'no-process-exit': 2,
+    'no-process-exit': 0,
     'no-proto': 2,
     'no-redeclare': 2,
     'no-regex-spaces': 2,
@@ -218,6 +219,9 @@ module.exports = {
     'vars-on-top': 2,
     'wrap-iife': [2, 'outside'],
     'wrap-regex': 2,
+    'xo/filename-case': [2, {case: 'kebabCase'}],
+    'xo/no-process-exit': 2,
+    'xo/throw-new-error': 2,
     yoda: [2, 'never']
   }
 }
