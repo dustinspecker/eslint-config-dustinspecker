@@ -18,7 +18,7 @@ test('index should have rules', t => {
 })
 
 test('index should include no-use-extend-native', t => {
-  t.true(config.plugins.indexOf('no-use-extend-native') > -1)
+  t.truthy(config.plugins.indexOf('no-use-extend-native') > -1)
 })
 
 test('esnext should es6 env', t => {
@@ -35,8 +35,8 @@ test('jsx should have browser env', t => {
 })
 
 test('jsx should add react plugin', t => {
-  t.true(jsx.plugins.indexOf('no-use-extend-native') > -1)
-  t.true(jsx.plugins.indexOf('react') > -1)
+  t.truthy(jsx.plugins.indexOf('no-use-extend-native') > -1)
+  t.truthy(jsx.plugins.indexOf('react') > -1)
 })
 
 test('jsx should have jsx ecmaFeature', t => {
