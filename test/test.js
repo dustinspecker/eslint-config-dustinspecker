@@ -1,8 +1,13 @@
+import ava from '../ava'
 import config from '../'
 import esnext from '../esnext'
 import isPlainObj from 'is-plain-obj'
 import jsx from '../jsx'
 import test from 'ava'
+
+test('ava should set up ava plugin', t => {
+  t.truthy(ava.plugins.indexOf('ava') > -1)
+})
 
 test('index should be an object', t => {
   t.truthy(isPlainObj(config))
