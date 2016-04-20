@@ -15,10 +15,13 @@
 
 ## Install
 ```
-npm install --save-dev eslint-config-dustinspecker eslint-plugin-no-use-extend-native
+npm install --save-dev eslint-config-dustinspecker
 ```
 
 ## ES5 Usage
+
+Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
+
 In your .eslintrc file:
 ```javascript
 {
@@ -28,15 +31,27 @@ In your .eslintrc file:
 
 ## ES2015 (ES6) Usage
 
+Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
+
 ```javascript
 {
   "extends": "dustinspecker/esnext"
 }
 ```
 
+## AVA usage
+
+Depends on [eslint-plugin-ava](https://github.com/sindresorhus/eslint-plugin-ava)
+
+```javascript
+{
+  "extends": "dustinspecker/ava"
+}
+```
+
 ## JSX usage
 
-Depends on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) and [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
 ```javascript
 {
@@ -47,7 +62,7 @@ Depends on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-reac
 }
 ```
 
-All options from [index.js](index.js), [esnext.js](esnext.js), [jsx.js](jsx.js) may be overridden in your .eslintrc file.
+All options from [ava.js](ava.js), [index.js](index.js), [esnext.js](esnext.js), and [jsx.js](jsx.js) may be overridden in your .eslintrc file.
 
 ## LICENSE
 MIT © [Dustin Specker](https://github.com/dustinspecker)
