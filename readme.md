@@ -15,7 +15,7 @@
 
 ## Install
 ```
-npm install --save-dev eslint-config-dustinspecker
+npm install --save-dev eslint-config-dustinspecker eslint-plugin-no-use-extend-native
 ```
 
 ## ES5 Usage

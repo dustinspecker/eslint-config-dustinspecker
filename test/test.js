@@ -12,6 +12,10 @@ test('index should have rules', t => {
   t.truthy(isPlainObj(config.rules))
 })
 
+test('index should include no-use-extend-native', t => {
+  t.true(config.plugins.indexOf('no-use-extend-native') > -1)
+})
+
 test('esnext should es6 env', t => {
   t.truthy(esnext.env.es6)
   t.truthy(esnext.parserOptions.ecmaVersion, 6)
@@ -25,7 +29,8 @@ test('jsx should have browser env', t => {
   t.truthy(jsx.env.browser)
 })
 
-test('jsx should have react plugin', t => {
+test('jsx should add react plugin', t => {
+  t.true(jsx.plugins.indexOf('no-use-extend-native') > -1)
   t.true(jsx.plugins.indexOf('react') > -1)
 })
 

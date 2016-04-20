@@ -2,6 +2,9 @@ module.exports = {
   env: {
     node: true
   },
+  plugins: [
+    'no-use-extend-native'
+  ],
   rules: {
     'accessor-pairs': 2,
     'array-bracket-spacing': [2, 'never'],
@@ -161,6 +164,7 @@ module.exports = {
     'no-unused-labels': 2,
     'no-unused-vars': 2,
     'no-use-before-define': [2, 'nofunc'],
+    'no-use-extend-native/no-use-extend-native': 2,
     'no-useless-call': 2,
     'no-useless-concat': 2,
     'no-useless-escape': 2,

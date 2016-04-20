@@ -6,7 +6,7 @@ config.parserOptions.ecmaFeatures = {
 
 config.env.browser = true
 
-config.plugins = ['react']
+config.plugins.push('react')
 
 config.rules['jsx-quotes'] = [2, 'prefer-single']
 config.rules['react/display-name'] = [2, {ignoreTranspilerName: false}]
