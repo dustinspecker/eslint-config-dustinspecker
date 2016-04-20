@@ -20,7 +20,7 @@ npm install --save-dev eslint-config-dustinspecker
 
 ## ES5 Usage
 
-Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
+Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) and [eslint-plugin-xo](https://github.com/sindresorhus/eslint-plugin-xo)
 
 In your .eslintrc file:
 ```javascript
@@ -31,7 +31,7 @@ In your .eslintrc file:
 
 ## ES2015 (ES6) Usage
 
-Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)
+Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) and [eslint-plugin-xo](https://github.com/sindresorhus/eslint-plugin-xo)
 
 ```javascript
 {
@@ -51,7 +51,7 @@ Depends on [eslint-plugin-ava](https://github.com/sindresorhus/eslint-plugin-ava
 
 ## JSX usage
 
-Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) and [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native), [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react), and [eslint-plugin-xo](https://github.com/sindresorhus/eslint-plugin-xo)
 
 ```javascript
 {
