@@ -221,6 +221,7 @@ module.exports = {
     'vars-on-top': 2,
     'wrap-iife': [2, 'outside'],
     'wrap-regex': 2,
+    'xo/catch-error-name': 0,
     'xo/filename-case': [2, {case: 'kebabCase'}],
     'xo/no-process-exit': 2,
     'xo/throw-new-error': 2,
