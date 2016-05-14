@@ -183,6 +183,7 @@ module.exports = {
     'no-whitespace-before-property': 2,
     'no-with': 2,
     'object-curly-spacing': 2,
+    'object-property-newline': 0,
     'one-var': [2, {let: 'always', var: 'always'}],
     'one-var-declaration-per-line': [2, 'initializations'],
     'operator-assignment': [2, 'always'],
