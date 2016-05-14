@@ -27,6 +27,7 @@ config.rules['react/jsx-max-props-per-line'] = [2, {maximum: 1}]
 config.rules['react/jsx-no-bind'] = 2
 config.rules['react/jsx-no-duplicate-props'] = 2
 config.rules['react/jsx-no-literals'] = 2
+config.rules['react/jsx-no-target-blank'] = 2
 config.rules['react/jsx-no-undef'] = 2
 config.rules['react/jsx-pascal-case'] = 2
 config.rules['react/jsx-sort-prop-types'] = 2
