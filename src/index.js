@@ -135,6 +135,7 @@ module.exports = {
     'no-process-env': 2,
     'no-process-exit': 0,
     'no-proto': 2,
+    'no-prototype-builtins': 2,
     'no-redeclare': 2,
     'no-regex-spaces': 2,
     'no-restricted-globals': 0,
@@ -212,6 +213,7 @@ module.exports = {
     }],
     'spaced-comment': [2, 'always'],
     strict: [0],
+    'unicode-bom': 2,
     'use-isnan': 2,
     'valid-jsdoc': [2, {
       requireParamDescription: true,
