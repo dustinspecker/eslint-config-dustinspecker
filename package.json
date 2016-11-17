@@ -42,7 +42,7 @@
     "eslint-plugin-xo": "^0.4.0",
     "is-plain-obj": "^1.0.0",
     "nyc": "^6.0.0",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.2"
   },
   "config": {
     "commitizen": {
