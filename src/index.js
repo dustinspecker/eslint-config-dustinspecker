@@ -4,7 +4,7 @@ module.exports = {
   },
   plugins: [
     'no-use-extend-native',
-    'xo'
+    'unicorn'
   ],
   rules: {
     'accessor-pairs': 2,
@@ -227,10 +227,20 @@ module.exports = {
     'vars-on-top': 2,
     'wrap-iife': [2, 'outside'],
     'wrap-regex': 2,
-    'xo/catch-error-name': 0,
-    'xo/filename-case': [2, {case: 'kebabCase'}],
-    'xo/no-process-exit': 2,
-    'xo/throw-new-error': 2,
+    'unicorn/catch-error-name': 0,
+    'unicorn/custom-error-definition': 2,
+    'unicorn/escape-case': 2,
+    'unicorn/explicit-length-check': 0,
+    'unicorn/filename-case': [2, {case: 'kebabCase'}],
+    'unicorn/no-abusive-eslint-disable': 2,
+    'unicorn/no-array-instanceof': 2,
+    'unicorn/no-hex-escape': 2,
+    'unicorn/no-new-buffer': 2,
+    'unicorn/no-process-exit': 2,
+    'unicorn/number-literal-case': 2,
+    'unicorn/prefer-starts-ends-with': 2,
+    'unicorn/prefer-type-error': 2,
+    'unicorn/throw-new-error': 2,
     yoda: [2, 'never']
   }
 }
