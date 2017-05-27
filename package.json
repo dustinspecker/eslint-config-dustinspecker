@@ -25,7 +25,13 @@
     "url": "https://github.com/dustinspecker/eslint-config-dustinspecker/issues"
   },
   "homepage": "https://github.com/dustinspecker/eslint-config-dustinspecker#readme",
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-ava": "^4.2.0",
+    "eslint-plugin-new-with-error": "^1.1.0",
+    "eslint-plugin-no-use-extend-native": "^0.3.4",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-unicorn": "^2.1.1"
+  },
   "devDependencies": {
     "ava": "^0.19.1",
     "babel-cli": "^6.4.0",
@@ -35,11 +41,6 @@
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^2.9.0",
     "eslint-find-rules": "^1.1.0",
-    "eslint-plugin-ava": "^4.2.0",
-    "eslint-plugin-new-with-error": "^1.1.0",
-    "eslint-plugin-no-use-extend-native": "^0.3.4",
-    "eslint-plugin-react": "^7.0.1",
-    "eslint-plugin-unicorn": "^2.1.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^10.3.2",
     "semantic-release": "^6.3.6"

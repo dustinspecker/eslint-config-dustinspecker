@@ -1,3 +1,4 @@
+require('eslint-plugin-new-with-error')
 require('eslint-plugin-no-use-extend-native')
 require('eslint-plugin-unicorn')
 
