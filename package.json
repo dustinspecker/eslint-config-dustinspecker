@@ -42,7 +42,7 @@
     "eslint-plugin-unicorn": "^2.1.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^10.3.2",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.6"
   },
   "ava": {
     "require": [
