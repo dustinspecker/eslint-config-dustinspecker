@@ -58,6 +58,7 @@ config.rules['prefer-rest-params'] = 2
 config.rules['prefer-spread'] = 2
 config.rules['prefer-template'] = 2
 config.rules['require-yield'] = 2
+config.rules['rest-spread-spacing'] = 2
 config.rules['sort-imports'] = 0
 config.rules['template-curly-spacing'] = 2
 config.rules['yield-star-spacing'] = [2, 'after']
