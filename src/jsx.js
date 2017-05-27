@@ -36,7 +36,6 @@ config.rules['react/jsx-no-literals'] = 2
 config.rules['react/jsx-no-target-blank'] = 2
 config.rules['react/jsx-no-undef'] = 2
 config.rules['react/jsx-pascal-case'] = 2
-config.rules['react/jsx-sort-prop-types'] = 2
 config.rules['react/jsx-sort-props'] = 2
 config.rules['react/jsx-space-before-closing'] = [2, 'always']
 config.rules['react/jsx-tag-spacing'] = 2
