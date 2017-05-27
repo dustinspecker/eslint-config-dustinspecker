@@ -1,3 +1,5 @@
+require('eslint-plugin-ava')
+
 module.exports = {
   plugins: [
     'ava'

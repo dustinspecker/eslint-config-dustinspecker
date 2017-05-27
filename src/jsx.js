@@ -1,4 +1,5 @@
 const config = require('./esnext')
+require('eslint-plugin-react')
 
 config.parserOptions.ecmaFeatures = {
   jsx: true

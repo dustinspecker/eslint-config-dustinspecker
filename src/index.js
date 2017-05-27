@@ -1,3 +1,6 @@
+require('eslint-plugin-no-use-extend-native')
+require('eslint-plugin-unicorn')
+
 module.exports = {
   env: {
     node: true
