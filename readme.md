@@ -55,10 +55,7 @@ Dependes on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-rea
 
 ```javascript
 {
-  "extends": "dustinspecker/react",
-  "plugins": [
-    "react"
-  ]
+  "extends": "dustinspecker/react"
 }
 ```
 
