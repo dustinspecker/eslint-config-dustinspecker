@@ -49,20 +49,20 @@ Depends on [eslint-plugin-ava](https://github.com/sindresorhus/eslint-plugin-ava
 }
 ```
 
-## JSX usage
+## React usage
 
 Dependes on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
 ```javascript
 {
-  "extends": "dustinspecker/jsx",
+  "extends": "dustinspecker/react",
   "plugins": [
     "react"
   ]
 }
 ```
 
-All options from [ava.js](ava.js), [index.js](index.js), [esnext.js](esnext.js), and [jsx.js](jsx.js) may be overridden in your .eslintrc file.
+All options from [ava.js](ava.js), [index.js](index.js), [esnext.js](esnext.js), and [react.js](react.js) may be overridden in your .eslintrc file.
 
 ## LICENSE
 MIT © [Dustin Specker](https://github.com/dustinspecker)

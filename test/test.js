@@ -2,7 +2,7 @@ import ava from '../ava'
 import config from '../'
 import esnext from '../esnext'
 import isPlainObj from 'is-plain-obj'
-import jsx from '../jsx'
+import react from '../react'
 import test from 'ava'
 
 test('ava should set up ava plugin', t => {
@@ -34,14 +34,14 @@ test('esnext should have ecmaFeatures', t => {
   t.truthy(isPlainObj(esnext.ecmaFeatures))
 })
 
-test('jsx should have browser env', t => {
-  t.truthy(jsx.env.browser)
+test('react should have browser env', t => {
+  t.truthy(react.env.browser)
 })
 
-test('jsx should set up react plugin', t => {
-  t.truthy(jsx.plugins.indexOf('react') > -1)
+test('react should set up react plugin', t => {
+  t.truthy(react.plugins.indexOf('react') > -1)
 })
 
-test('jsx should have jsx ecmaFeature', t => {
-  t.truthy(jsx.parserOptions.ecmaFeatures.jsx)
+test('react should have react ecmaFeature', t => {
+  t.truthy(react.parserOptions.ecmaFeatures.jsx)
 })
