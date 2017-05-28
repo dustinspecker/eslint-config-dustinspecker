@@ -49,7 +49,7 @@ module.exports = {
       afterColon: true,
       beforeColon: false
     }],
-    'keyword-spacing': [2, {"after": true, "before": true}],
+    'keyword-spacing': [2, {after: true, before: true}],
     'linebreak-style': [2, 'unix'],
     'lines-around-comment': 0,
     'max-depth': 2,
