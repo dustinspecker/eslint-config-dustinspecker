@@ -51,7 +51,7 @@ Depends on [eslint-plugin-ava](https://github.com/sindresorhus/eslint-plugin-ava
 
 ## JSX usage
 
-Dependes on [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native), [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react), and [eslint-plugin-xo](https://github.com/sindresorhus/eslint-plugin-xo)
+Dependes on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
 ```javascript
 {

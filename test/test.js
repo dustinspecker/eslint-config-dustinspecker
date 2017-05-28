@@ -38,10 +38,8 @@ test('jsx should have browser env', t => {
   t.truthy(jsx.env.browser)
 })
 
-test('jsx should add react plugin', t => {
-  t.truthy(jsx.plugins.indexOf('no-use-extend-native') > -1)
+test('jsx should set up react plugin', t => {
   t.truthy(jsx.plugins.indexOf('react') > -1)
-  t.truthy(jsx.plugins.indexOf('unicorn') > -1)
 })
 
 test('jsx should have jsx ecmaFeature', t => {
