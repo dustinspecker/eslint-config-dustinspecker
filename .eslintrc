@@ -1,6 +1,6 @@
 {
   extends: [
-    './src/esnext.js',
-    './src/ava.js'
+    './esnext.js',
+    './ava.js'
   ]
 }
