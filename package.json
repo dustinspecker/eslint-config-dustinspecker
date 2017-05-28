@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "babel src --out-dir ./",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "eslint-find-rules": "eslint-find-rules -u ./jsx.js",
+    "eslint-find-rules": "eslint-find-rules -u ./src/all-rules.js",
     "lint": "eslint ./",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "npm run lint && npm run compile && nyc ava"

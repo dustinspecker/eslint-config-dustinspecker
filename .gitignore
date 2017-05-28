@@ -2,6 +2,7 @@
 coverage/
 lib/
 node_modules/
+all-rules.js
 ava.js
 esnext.js
 index.js
