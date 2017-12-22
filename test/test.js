@@ -1,5 +1,5 @@
 import ava from '../ava'
-import config from '../'
+import config from '..'
 import esnext from '../esnext'
 import isPlainObj from 'is-plain-obj'
 import react from '../react'

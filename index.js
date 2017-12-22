@@ -236,14 +236,18 @@ module.exports = {
     'unicorn/escape-case': 2,
     'unicorn/explicit-length-check': 0,
     'unicorn/filename-case': [2, {case: 'kebabCase'}],
+    'unicorn/import-index': 2,
+    'unicorn/new-for-builtins': 2,
     'unicorn/no-abusive-eslint-disable': 2,
     'unicorn/no-array-instanceof': 2,
+    'unicorn/no-fn-reference-in-iterator': 2,
     'unicorn/no-hex-escape': 2,
     'unicorn/no-new-buffer': 2,
     'unicorn/no-process-exit': 2,
     'unicorn/number-literal-case': 2,
     'unicorn/prefer-starts-ends-with': 2,
     'unicorn/prefer-type-error': 2,
+    'unicorn/regex-shorthand': 2,
     'unicorn/throw-new-error': 2,
     yoda: [2, 'never']
   }
