@@ -7,7 +7,7 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "eslint-find-rules": "eslint-find-rules -u ./all-rules.js",
     "lint": "eslint ./",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release",
     "test": "npm run lint && nyc ava"
   },
   "repository": {
@@ -39,7 +39,7 @@
     "eslint-find-rules": "^3.1.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^11.4.1",
-    "semantic-release": "^6.3.6"
+    "semantic-release": "^11.0.2"
   },
   "config": {
     "commitizen": {
