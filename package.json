@@ -39,7 +39,7 @@
     "eslint-find-rules": "^3.1.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^11.4.1",
-    "semantic-release": "^11.0.2"
+    "semantic-release": "^12.2.2"
   },
   "config": {
     "commitizen": {
