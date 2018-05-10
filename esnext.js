@@ -46,6 +46,7 @@ config.rules['sort-imports'] = 'off'
 config.rules['symbol-description'] = 'error'
 config.rules['template-curly-spacing'] = 'error'
 config.rules['template-tag-spacing'] = 'error'
+config.rules['unicorn/prefer-spread'] = 'error'
 config.rules['yield-star-spacing'] = ['error', 'after']
 
 module.exports = config
