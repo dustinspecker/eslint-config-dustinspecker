@@ -1,17 +1,14 @@
-sudo: false
 language: node_js
-node_js:
-  - '10'
+cache:
+  directories:
+    - ~/.npm
 notifications:
   email: false
-before_script:
-  - npm prune
-script:
-  - npm run test
-  - npm run eslint-find-rules
+node_js:
+  - '10'
 after_success:
   - npm run-script coveralls
-  - npm run semantic-release
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
+    - /^v\d+\.\d+\.\d+$/

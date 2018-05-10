@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dustinspecker",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.0-development",
   "description": "ESLint shareable config of Dustin Specker's preferences",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "eslint-find-rules": "eslint-find-rules -u ./all-rules.js",
     "lint": "eslint ./",
     "semantic-release": "semantic-release",
-    "test": "npm run lint && nyc ava"
+    "test": "npm run lint && nyc ava",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,8 @@
     "eslint-find-rules": "^3.1.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^11.4.1",
-    "semantic-release": "^11.0.2"
+    "semantic-release": "^15.4.0",
+    "travis-deploy-once": "^5.0.0"
   },
   "config": {
     "commitizen": {
