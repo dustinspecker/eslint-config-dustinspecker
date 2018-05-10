@@ -30,10 +30,6 @@ test('esnext should es6 env', t => {
   t.truthy(esnext.parserOptions.ecmaVersion, 6)
 })
 
-test('esnext should have ecmaFeatures', t => {
-  t.truthy(isPlainObj(esnext.ecmaFeatures))
-})
-
 test('react should have browser env', t => {
   t.truthy(react.env.browser)
 })

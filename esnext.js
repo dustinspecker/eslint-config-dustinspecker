@@ -7,31 +7,6 @@ config.parserOptions = {
   sourceType: 'module'
 }
 
-config.ecmaFeatures = {
-  arrowFunctions: true,
-  binaryLiterals: false,
-  blockBindings: true,
-  classes: true,
-  defaultParams: true,
-  destructuring: true,
-  experimentalObjectRestSpread: true,
-  forOf: true,
-  generators: true,
-  globalReturn: false,
-  objectLiteralComputedProperties: true,
-  objectLiteralDuplicateProperties: false,
-  objectLiteralShorthandMethods: true,
-  objectLiteralShorthandProperties: true,
-  octalLiterals: false,
-  regexUFlag: true,
-  regexYFlrag: true,
-  restParams: true,
-  spread: true,
-  superInFunctions: true,
-  templateString: true,
-  unicodeCodePointEscape: true
-}
-
 config.rules['arrow-body-style'] = ['error', 'as-needed']
 config.rules['arrow-parens'] = ['error', 'as-needed']
 config.rules['arrow-spacing'] = ['error', {after: true, before: true}]
