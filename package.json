@@ -39,7 +39,7 @@
     "eslint": "^4.13.1",
     "eslint-find-rules": "^3.1.1",
     "is-plain-obj": "^1.0.0",
-    "nyc": "^11.4.1",
+    "nyc": "^12.0.1",
     "semantic-release": "^15.4.0",
     "travis-deploy-once": "^5.0.0"
   },
