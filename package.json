@@ -36,7 +36,7 @@
     "ava": "^0.25.0",
     "coveralls": "^3.0.0",
     "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^4.13.1",
+    "eslint": "^5.0.0",
     "eslint-find-rules": "^3.1.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^11.4.1",
