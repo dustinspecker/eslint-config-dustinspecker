@@ -33,7 +33,7 @@
     "eslint-plugin-unicorn": "^4.0.0"
   },
   "devDependencies": {
-    "ava": "^0.25.0",
+    "ava": "^1.0.1",
     "coveralls": "^3.0.0",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.13.1",
