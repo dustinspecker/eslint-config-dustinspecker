@@ -54,6 +54,7 @@ module.exports = {
     'implicit-arrow-linebreak': 'error',
     indent: ['error', 2, {SwitchCase: 1, VariableDeclarator: 2}],
     'init-declarations': 'off',
+    'jsx-quotes': ['error', 'prefer-double'],
     'key-spacing': ['error', {
       afterColon: true,
       beforeColon: false
