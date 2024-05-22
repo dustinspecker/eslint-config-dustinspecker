@@ -3,8 +3,6 @@
 [![Coverage Status](https://img.shields.io/coveralls/dustinspecker/eslint-config-dustinspecker.svg)](https://coveralls.io/r/dustinspecker/eslint-config-dustinspecker?branch=main)
 
 [![Code Climate](https://codeclimate.com/github/dustinspecker/eslint-config-dustinspecker/badges/gpa.svg)](https://codeclimate.com/github/dustinspecker/eslint-config-dustinspecker)
-[![Dependencies](https://david-dm.org/dustinspecker/eslint-config-dustinspecker.svg)](https://david-dm.org/dustinspecker/eslint-config-dustinspecker/#info=dependencies&view=table)
-[![DevDependencies](https://david-dm.org/dustinspecker/eslint-config-dustinspecker/dev-status.svg)](https://david-dm.org/dustinspecker/eslint-config-dustinspecker/#info=devDependencies&view=table)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
