@@ -1,6 +1,5 @@
 # eslint-config-dustinspecker
 [![NPM version](https://badge.fury.io/js/eslint-config-dustinspecker.svg)](https://badge.fury.io/js/eslint-config-dustinspecker)
-[![Build Status](https://travis-ci.org/dustinspecker/eslint-config-dustinspecker.svg)](https://travis-ci.org/dustinspecker/eslint-config-dustinspecker)
 [![Coverage Status](https://img.shields.io/coveralls/dustinspecker/eslint-config-dustinspecker.svg)](https://coveralls.io/r/dustinspecker/eslint-config-dustinspecker?branch=master)
 
 [![Code Climate](https://codeclimate.com/github/dustinspecker/eslint-config-dustinspecker/badges/gpa.svg)](https://codeclimate.com/github/dustinspecker/eslint-config-dustinspecker)
