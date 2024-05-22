@@ -8,8 +8,7 @@
     "eslint-find-rules": "eslint-find-rules -u ./all-rules.js",
     "lint": "eslint ./",
     "semantic-release": "semantic-release",
-    "test": "npm run lint && nyc ava",
-    "travis-deploy-once": "travis-deploy-once"
+    "test": "npm run lint && nyc ava"
   },
   "repository": {
     "type": "git",
@@ -40,8 +39,7 @@
     "eslint-find-rules": "^3.1.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^11.4.1",
-    "semantic-release": "^15.4.0",
-    "travis-deploy-once": "^5.0.0"
+    "semantic-release": "^15.4.0"
   },
   "config": {
     "commitizen": {
