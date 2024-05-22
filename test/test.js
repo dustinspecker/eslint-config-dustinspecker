@@ -1,9 +1,9 @@
-import ava from '../ava'
-import config from '..'
-import esnext from '../esnext'
-import isPlainObj from 'is-plain-obj'
-import react from '../react'
-import test from 'ava'
+const ava = require('../ava')
+const config = require('..')
+const esnext = require('../esnext')
+const isPlainObj = require('is-plain-obj')
+const react = require('../react')
+const test = require('ava')
 
 test('ava should set up ava plugin', t => {
   t.truthy(ava.plugins.indexOf('ava') > -1)
@@ -27,7 +27,7 @@ test('index should include xo', t => {
 
 test('esnext should es6 env', t => {
   t.truthy(esnext.env.es6)
-  t.truthy(esnext.parserOptions.ecmaVersion, 6)
+  t.is(esnext.parserOptions.ecmaVersion, 6)
 })
 
 test('react should have browser env', t => {
