@@ -2,7 +2,6 @@ const ava = require('../ava')
 const config = require('..')
 const esnext = require('../esnext')
 const isPlainObj = require('is-plain-obj')
-const react = require('../react')
 const test = require('ava')
 
 test('ava should set up ava plugin', t => {
@@ -28,16 +27,4 @@ test('index should include xo', t => {
 test('esnext should es6 env', t => {
   t.truthy(esnext.env.es6)
   t.is(esnext.parserOptions.ecmaVersion, 6)
-})
-
-test('react should have browser env', t => {
-  t.truthy(react.env.browser)
-})
-
-test('react should set up react plugin', t => {
-  t.truthy(react.plugins.indexOf('react') > -1)
-})
-
-test('react should have react ecmaFeature', t => {
-  t.truthy(react.parserOptions.ecmaFeatures.jsx)
 })
