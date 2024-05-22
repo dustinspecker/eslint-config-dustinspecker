@@ -4,10 +4,9 @@
   "description": "ESLint shareable config of Dustin Specker's preferences",
   "main": "index.js",
   "scripts": {
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "eslint-find-rules": "eslint-find-rules -u ./all-rules.js",
     "lint": "eslint ./",
-    "test": "npm run lint && nyc ava"
+    "test": "npm run lint && c8 ava"
   },
   "repository": {
     "type": "git",
@@ -32,10 +31,16 @@
   },
   "devDependencies": {
     "ava": "^0.25.0",
+    "c8": "^9.1.0",
     "coveralls": "^3.0.0",
     "eslint": "^4.13.1",
     "eslint-find-rules": "^3.1.1",
-    "is-plain-obj": "^1.0.0",
-    "nyc": "^11.4.1"
+    "is-plain-obj": "^1.0.0"
+  },
+  "c8": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   }
 }
