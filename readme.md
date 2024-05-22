@@ -5,7 +5,6 @@
 [![Code Climate](https://codeclimate.com/github/dustinspecker/eslint-config-dustinspecker/badges/gpa.svg)](https://codeclimate.com/github/dustinspecker/eslint-config-dustinspecker)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 > ESLint [shareable](http://eslint.org/docs/developer-guide/shareable-configs.html) config of Dustin Specker's preferences
 
